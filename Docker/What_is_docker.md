@@ -54,12 +54,11 @@ Gunicorn은 WSGI 서버이기 때문에 기본적으로 동기 작업을 처리�
 Uvicorn은 싱글 프로세스 서버로 비동기 처리를 효율적으로 처리하지만 **멀티프로세싱**이나 **로드 밸런싱** 같은 기능은 기본적으로 제공하지 않는다. 
 
 - 기본적인 구조
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e00b2a66-cb1a-4908-9dca-d58fe6200c6c/c7c42932-0171-49b5-abdd-feb24d431ba5/image.png)
+  <img width="422" alt="현재 구조" src="https://github.com/user-attachments/assets/ab9f515b-d66e-480a-b8b9-3cbdc329aaaf">
     
 - 컨테이너에 트래픽이 생길 때
+  <img width="608" alt="컨테이너에 트래픽이 생길때 구조" src="https://github.com/user-attachments/assets/81a0fe82-ffcb-41ab-8b9f-a6d66c1e21ef">
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e00b2a66-cb1a-4908-9dca-d58fe6200c6c/30998d3c-a61b-4da7-9986-031a2ea1b53d/image.png)
     
 
 # Uvicorn, Guvicorn, Docker의 관계

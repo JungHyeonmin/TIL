@@ -1,7 +1,7 @@
 # Today I Learned
 
 [![Version](https://img.shields.io/badge/version-2024.9.11-red.svg)](./CHANGELOG)
-* 좋은 발자가 되기 위해 하루동안 학습한 내용이나 개발관련 경험들을 기록으로 남긴다.
+* 좋은 개발자가 되기 위해 하루동안 학습한 내용이나 개발관련 경험들을 기록으로 남긴다.
 * Today I Learned인데 날짜를 표시하지 않는 이유는 조급해지지 않고 꾸준하기 위함이다.
 
 ## stack
@@ -42,7 +42,7 @@
 ### Seminar & Conference
 
 ### Java
-
+* [표준 Exception 정리](https://github.com/JungHyeonmin/TIL/blob/main/Java/Exception.md)
 ### JPA
 
 ### Spring Boot

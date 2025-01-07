@@ -52,6 +52,10 @@
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)
 
+### HTTP
+* [HTTP 메서드](https://github.com/JungHyeonmin/TIL/blob/main/HTTP/HTTP_Method.md)
+
+
 ### Node.js
 
 ### Vue.js
@@ -64,7 +68,6 @@
 ### Design Pattern
 
 ### Algorithm
-
 
 ### Docker
 * [docker란 무엇인가](https://github.com/JungHyeonmin/TIL/blob/main/Docker/What_is_docker.md)

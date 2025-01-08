@@ -16,6 +16,7 @@ PUT은 리소스 전체를 수정 또는 추가하는 것이다.
 
 ## HTTP 메서드의 속성
 
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e00b2a66-cb1a-4908-9dca-d58fe6200c6c/78684d7d-7177-49f0-8a72-a5f8296c0d4f/image.png)
 
 ### 안전 safe
 
@@ -123,9 +124,9 @@ PUT은 리소스 전체를 수정 또는 추가하는 것이다.
 
 - **리다이렉트 설명**
     - 웹 브라우저는 3xx응답의 결과에 Location 헤더가 있으면, Location 위치로 자동 이동
-
-  리다이렉트 종류
-
+    
+    리다이렉트 종류
+    
     - **영구 리다이렉션** : 특정 리소스의 URI가 영구적으로 이동
         - 리소스의 URI가 영구적으로 이동
         - 원래의 URL를 사용X, 검색 엔진 등에서도 변경 인지
@@ -141,27 +142,27 @@ PUT은 리소스 전체를 수정 또는 추가하는 것이다.
             - POST로 주문 후 브라우저를 새로고침하면? → 중복 주문이 될 수 있다.
             - 클라이언트 해결 방법 : POST로 주문 후에 주문 결과 화면을 GET메서드로 리다이렉트한다. 새로고침해도 결과화면을 GET으로 조회한다.
             - 백엔드 해결방법 : 주문 번호를 확인하여 방지
-
-      ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e00b2a66-cb1a-4908-9dca-d58fe6200c6c/8b33ff46-fa3f-4fbb-aba8-f72537c2340e/image.png)
-
+        
+        ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/e00b2a66-cb1a-4908-9dca-d58fe6200c6c/8b33ff46-fa3f-4fbb-aba8-f72537c2340e/image.png)
+        
     - **특수 리다이렉션**
         - 결과 대신 캐시를 사용
 - 300 Multiple Choices : 안쓴다.
 - 301 Moved Permanently : 영구 리다이렉트, 리다이렉트시 요청 메서드가 GET으로 변하고, 본문이 제거될 수 있음(MAY)
 - 302 Found : 리다이렉트시 요청 메서드가 GET으로 변하고, 본문이 제거될 수 있음(MAY)
-
-  **→ GET으로 변할 수 있음**
-
+    
+    **→ GET으로 변할 수 있음**
+    
 - 303 See Other : 리다이렉트시 요청 메서드가 GET으로 변경, 302와 기능은 같음
 - 304 Not Modified : 캐시를 목적으로 사용, 클라이언트에게 리소스가 수정되지 않았음을 알려준다. 따라서 클라이언트는 로컬PC에 저장된 캐시를 재사용한다.(캐시로 리다이렉트 한다.), **304응답은 응답에 메시지 바디를 포함하면 안된다.(로컬 캐시를 사용해야 하므로)**, 조건부 GET,HEAD 요청시 사용
 - 307 Temporary Redirect : 리다이렉트시 요청 메서드와 본문 유지(**요청 메서드를 변경하면 안된다. MUST NOT**), 302와 기능은 같음
-
-  **→ 메서드가 변하면 안됨**
-
+    
+     **→ 메서드가 변하면 안됨**
+    
 - 308 Permanent Redirect : 영구 리다이렉트, 리다이렉트시 요청 메서드와 본문 유지(처음 POST를 보내면 리다이렉트도 POST 유지), 301과 기능은 같음
-
-  **→ 메서드가 GET으로 변경**
-
+    
+    **→ 메서드가 GET으로 변경**
+    
 
 ### 4xx (Client Error) : 클라이언트 오류, 잘못된 문법등으로 서버가 요청을 수행할 수 없음
 
@@ -280,8 +281,8 @@ PUT은 리소스 전체를 수정 또는 추가하는 것이다.
 
 - 구체적인 것을 기준으로 미디어 타입을 맞춘다.
 - Accept: text/*;q=0.3, text/html;q=0.7, text/html;level=1, text/html;level=2;q=0.4, */*;q=0.5
-
-
+    
+    
     | Media Type | Quality |
     | --- | --- |
     | text/html;level=1 | 1 |
@@ -463,3 +464,64 @@ PUT은 리소스 전체를 수정 또는 추가하는 것이다.
     - 예)
         - 서버는 베타 오픈기간인 3일 동안 파일이 변경되어도 ETag를 동일하게 유지
         - 애플리케이션 배포 주기에 맞추어 ETag 모두 갱신
+
+## 캐시 제어 헤더
+
+### Cache-Control 캐시 제어
+
+**캐시 지시어(directives)**
+
+- Cache-Control: max-age
+    - 캐시 유효 시간, 초 단위
+- Cache-Control: no-cache
+    - 데이터는 캐시해도 되지마, 항상 원(origin)서버에 검증하고 사용
+- Cache-Control: no-store
+    - 데이터에 민감한 정보가 있으므로 저장하면 안됨(메모리에서 사용하고 최대한 빨리 삭제)
+
+Expires 캐시 만료일 지정(하위 호환)
+
+### Pragma 캐시 제어(하위 호환)
+
+- Pragma: no-cache
+- HTTP 1.0 하위 호환
+
+### Expires 캐시 유효 기간(하위 호환)
+
+- expires: Mon, 01 Jan 1990 00:00:00 GMT
+- 캐시 만료일을 정확한 날짜로 지정
+- HTTP 1.0부터 사용
+- 지금은 더 유연한 Cache-Control: max-age권장
+- Cache-Control: max-age와 함께 사용하면 Expires는 무시
+
+## 프록시 캐시
+
+### **캐시 지시어(directives) - 기타**
+
+- Cache-Control: public
+    - 응답이 public 캐시에 저장되어도 됨
+- Cache-Control: private
+    - 응답이 해당 사용자만을 위한 것음, private 캐시에 저장해야 함(기본값)
+- Cache-Control: s-maxage
+    - 프록시 캐시에만 적용되는 max-age
+- Age: 60 (HTTP 헤더)
+    - 오리진 서버에서 응답 후 프록시 캐시 내에 머문 시간(초)
+
+### 확실한 캐시 무효화 응답
+
+- 캐시가 되면 안될때 사용하는 방법
+- Cache-Control: no-cache
+    
+    원 서버에 접근하지 못해도 200 응답 가능
+    
+    - 데이터는 캐시해도 되지만, 항상 원 서버에 검증하고 사용(이름에 주의!)
+- Cache-Control: no-store
+    - 데이터에 민감한 정보가 있으므로 저장하면 안됨(메모리에서 사용하고 최대한 빨리 삭제)
+- Cache-Control: must-revalidate
+    
+    무조건 원 서버에 접근할 수 없으면 오류발생
+    
+    - 캐시 만료후 최초 조회시 원 서버에 검증해야함
+    - 원 서버 접근 실패시 반드시 오류가 발생해야 함 - 504(Gateway Timeout)
+    - must-revalidate는 캐시 유효 시간이라면 캐시를 사용함
+- Pragma: no-cache
+    - HTTP 1.0 하위 호환

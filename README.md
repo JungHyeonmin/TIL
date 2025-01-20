@@ -49,6 +49,7 @@
 
 ### Spring
 * [SOLID](https://github.com/JungHyeonmin/TIL/blob/main/Spring/SOLID.md)
+* [JPA - N+1문제](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/N%2B1.md)
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)
 

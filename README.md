@@ -50,8 +50,8 @@
 ### Spring
 * [SOLID](https://github.com/JungHyeonmin/TIL/blob/main/Spring/SOLID.md)
 * [JPA - N+1문제](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/N%2B1.md)
-* [Transaction 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Spring/Transaction.md)
-* [Transaction isolation level 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/N%2B1.md)
+* [Transaction 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Transaction%20Isolation%20Level.md)
+* [Transaction isolation level 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Transaction.md)
 
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)

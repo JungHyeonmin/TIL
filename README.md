@@ -43,6 +43,7 @@
 
 ### Java
 * [표준 Exception 정리](https://github.com/JungHyeonmin/TIL/blob/main/Java/Exception.md)
+* [JVM 알고리즘 정의](https://github.com/JungHyeonmin/TIL/blob/main/Java/Exception.md)
 ### JPA
 
 ### Spring Boot

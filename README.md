@@ -45,7 +45,7 @@
 * [표준 Exception 정리](https://github.com/JungHyeonmin/TIL/blob/main/Java/Exception.md)
 * [가비지컬렉터 알고리즘 종류](https://github.com/JungHyeonmin/TIL/blob/main/Java/Garbage%20Collector%20algorithm.md)
 * [Reflection](https://github.com/JungHyeonmin/TIL/blob/main/Java/Reflection.md)
-* 
+
 ### JPA
 
 ### Spring Boot
@@ -55,6 +55,7 @@
 * [JPA - N+1문제](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/N%2B1.md)
 * [Transaction 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Transaction.md)
 * [Transaction isolation level 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Transaction%20Isolation%20Level.md)
+* [Hibernate](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Hibernate.md)
 
 
 

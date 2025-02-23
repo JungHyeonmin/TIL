@@ -17,3 +17,4 @@
 15. CQRS란
 16. elastic search란
 17. BeanDefinition
+18. 게이트웨이

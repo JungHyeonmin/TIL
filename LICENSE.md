@@ -1,20 +1,19 @@
 # 개념이 안잡혔고 궁금한것들
 
-1. ~~하이버네이트~~
-2. ~~github Actions~~
-3. ~~proxy~~
-4. 서버 배포하는 방법
-5. 스프링 컨테이너
-6. 스프링 코어
-7. 소켓과 웹소켓
-8. OSI 7계층
-9. TCP, UDP
-10. Leact Hook Form
-11. 단위 테스트와 통합 테스트
-12. JPA 영속성이란
-13. OAUTH
-14. RESTful API란
-15. CQRS란
-16. elastic search란
-17. BeanDefinition
-18. 게이트웨이
+01. ~~하이버네이트~~
+02. ~~github Actions~~
+03. ~~proxy~~
+04. ~~스프링 컨테이너~~
+05. 스프링 코어
+06. 소켓과 웹소켓
+07. OSI 7계층
+08. TCP, UDP
+09. Leact Hook Form
+10. 단위 테스트와 통합 테스트
+11. JPA 영속성이란
+12. OAUTH
+13. RESTful API란
+14. CQRS란
+15. elastic search란
+16. BeanDefinition
+17. 게이트웨이

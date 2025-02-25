@@ -4,7 +4,7 @@
 2. ~~github Actions~~
 3. ~~proxy~~
 4. ~~스프링 컨테이너~~
-5. IOC
+5. ~~IoC~~
 6. DI
 7. AOP
 8. 스프링 코어

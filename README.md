@@ -53,6 +53,8 @@
 * [Transaction isolation level 이란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/Transaction%20Isolation%20Level.md)
 * [Hibernate](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Hibernate.md)
 * [Spring Container](https://github.com/JungHyeonmin/TIL/blob/main/Spring/SpringContainer.md)
+* [IoC(Inversion of Control)](https://github.com/JungHyeonmin/TIL/blob/main/Spring/IoC.md)
+
 
 ### JPA
 

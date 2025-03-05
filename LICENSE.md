@@ -8,7 +8,7 @@
 6. ~~DI~~
 7. ~~AOP~~
 8. ~~Spring Core~~
-9. 소켓과 웹소켓
+9. ~~웹소켓~~
 10. OSI 7계층
 11. TCP, UDP
 12. Leact Hook Form

@@ -9,7 +9,7 @@
 7. ~~AOP~~
 8. ~~Spring Core~~
 9. ~~웹소켓~~
-10. OSI 7계층
+10. ~~OSI 7계층~~
 11. TCP, UDP
 12. Leact Hook Form
 13. 단위 테스트와 통합 테스트

@@ -71,6 +71,7 @@
 ### Server
 * [서버 부하 테스트 Jmeter](https://github.com/JungHyeonmin/TIL/blob/main/Server/README.md)
 * [웹소켓](https://github.com/JungHyeonmin/TIL/blob/main/Server/WebSocket.md)
+* [OSI 7Layer](https://github.com/JungHyeonmin/TIL/blob/main/Server/OSI%207Layer.md)
 
   
 ### Node.js

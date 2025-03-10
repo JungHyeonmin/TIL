@@ -11,12 +11,11 @@
 9. ~~웹소켓~~
 10. ~~OSI 7계층~~
 11. ~~TCP, UDP~~
-12. Leact Hook Form
-13. 단위 테스트와 통합 테스트
-14. JPA 영속성이란
-15. OAUTH
-16. RESTful API란
-17. CQRS란
-18. elastic search란
-19. BeanDefinition
-20. 게이트웨이
+12. ~~단위 테스트와 통합 테스트~~
+13. JPA 영속성이란
+14. OAUTH
+15. RESTful API란
+16. CQRS란
+17. elastic search란
+18. BeanDefinition
+19. 게이트웨이

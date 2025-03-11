@@ -61,8 +61,8 @@
 * [AOP(Aspect Oriented Programming)](https://github.com/JungHyeonmin/TIL/blob/main/Spring/AOP.md)
 
 ### JPA
+* [Persistence Context](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Persistence%20Context.md)
 
-### Spring Boot
 
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)

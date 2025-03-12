@@ -13,7 +13,7 @@
 11. ~~TCP, UDP~~
 12. ~~단위 테스트와 통합 테스트~~
 13. ~~JPA 영속성~~
-14. Entity Manager
+14. ~~Entity Manager~~
 15. OAUTH
 16. RESTful API란
 17. CQRS란

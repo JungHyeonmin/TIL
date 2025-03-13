@@ -14,7 +14,7 @@
 12. ~~단위 테스트와 통합 테스트~~
 13. ~~JPA 영속성~~
 14. ~~Entity Manager~~
-15. OAUTH
+15. ~~OAuth~~
 16. RESTful API란
 17. CQRS란
 18. elastic search란

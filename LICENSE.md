@@ -15,7 +15,7 @@
 13. ~~JPA 영속성~~
 14. ~~Entity Manager~~
 15. ~~OAuth~~
-16. RESTful API란
+16. ~~RESTful API란~~
 17. CQRS란
 18. elastic search란
 19. BeanDefinition

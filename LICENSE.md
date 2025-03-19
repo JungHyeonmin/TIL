@@ -20,3 +20,4 @@
 18. elastic search란
 19. BeanDefinition
 20. 게이트웨이
+21. 옵티마이저

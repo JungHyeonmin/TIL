@@ -17,7 +17,10 @@
 15. ~~OAuth~~
 16. ~~RESTful API란~~
 17. ~~CQRS란~~
-18. elastic search란
-19. BeanDefinition
-20. 게이트웨이
-21. 옵티마이저
+18. ~~elastic search란~~
+19. ~~http 메서드~~
+20. DB 키 종류
+21. SQL char, varchar
+22. BeanDefinition
+23. 게이트웨이
+24. 옵티마이저

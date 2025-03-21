@@ -19,7 +19,7 @@
 17. ~~CQRS란~~
 18. ~~elastic search란~~
 19. ~~http 메서드~~
-20. DB 키 종류
+20. ~~DB 키 종류~~
 21. SQL char, varchar
 22. git 명령어 종류
 22. BeanDefinition

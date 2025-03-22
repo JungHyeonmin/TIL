@@ -68,7 +68,7 @@
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)
 * [DB Key 종류](https://github.com/JungHyeonmin/TIL/blob/main/Database/Key.md)
-
+* [SQL DataType 종류](https://github.com/JungHyeonmin/TIL/blob/main/Database/DataType.md)
 
 
 

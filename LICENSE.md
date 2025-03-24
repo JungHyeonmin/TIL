@@ -22,6 +22,6 @@
 20. ~~DB 키 종류~~
 21. ~~SQL char, varchar~~
 22. ~~git 명령어 종류~~
-22. BeanDefinition
+22. ~~BeanDefinition~~
 23. 게이트웨이
 24. 옵티마이저

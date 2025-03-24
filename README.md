@@ -63,6 +63,7 @@
 ### JPA
 * [Persistence Context](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Persistence%20Context.md)
 * [Entity Manager](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Entity_Manager.md)
+* [Bean Definition](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/BeanDefinition.md)
 
 
 ### Database

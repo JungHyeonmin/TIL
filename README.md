@@ -59,6 +59,7 @@
 * [IoC(Inversion of Control)](https://github.com/JungHyeonmin/TIL/blob/main/Spring/IoC.md)
 * [DI(Dependency Injection)](https://github.com/JungHyeonmin/TIL/blob/main/Spring/DI.md)
 * [AOP(Aspect Oriented Programming)](https://github.com/JungHyeonmin/TIL/blob/main/Spring/AOP.md)
+* [JSP란](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JSP.md)
 
 ### JPA
 * [Persistence Context](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Persistence%20Context.md)

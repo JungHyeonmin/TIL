@@ -24,4 +24,5 @@
 22. ~~git 명령어 종류~~
 22. ~~BeanDefinition~~
 23. ~~게이트웨이~~
-24. JSP
+24. ~~JSP~~
+25. ~~DataBase 종류~~

@@ -35,6 +35,7 @@
 32. Handler Resolver, View Resolver, Exception Resolver 란?
 33. 서블릿이란?
 34. dispatcher servlet
-35. POJO란?
+35. POJO(Plain Old Java Object)란?
 36. SPRING MVC란?
 37. IMPL 개발 방법
+38. EJB(Enterprise Java Bean)란?

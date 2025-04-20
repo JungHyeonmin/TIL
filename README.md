@@ -46,6 +46,8 @@
 * [가비지컬렉터 알고리즘 종류](https://github.com/JungHyeonmin/TIL/blob/main/Java/Garbage%20Collector%20algorithm.md)
 * [Reflection](https://github.com/JungHyeonmin/TIL/blob/main/Java/Reflection.md)
 * [단위 테스트(Unit Test)와 통합 테스트(Integration Test)](https://github.com/JungHyeonmin/TIL/blob/main/Java/Unit%20Test%26Integration%20Test.md)
+* [페이징이란](https://github.com/JungHyeonmin/TIL/blob/main/Java/Pagination.md)
+* [Folder Structure](https://github.com/JungHyeonmin/TIL/blob/main/Java/Folder%20structure.md)
 
 
 ### Spring

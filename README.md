@@ -68,6 +68,8 @@
 * [Entity Manager](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Entity_Manager.md)
 * [Bean Definition](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/BeanDefinition.md)
 
+### JSP
+* [ContextPath](https://github.com/JungHyeonmin/TIL/blob/main/Jsp/ContextPath.md)
 
 ### Database
 * [JDBC의 기초 지식과 JDBC Template](https://github.com/JungHyeonmin/TIL/blob/main/Database/JDBC.md)
@@ -119,3 +121,6 @@
 ### Python
 
 ### Tools
+
+### ETC
+* [EGovFrame](https://github.com/JungHyeonmin/TIL/blob/main/Etc/eGovframe.md)

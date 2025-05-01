@@ -28,7 +28,7 @@
 25. ~~DataBase 종류~~
 26. ~~Common code란?~~
 27. ~~페이징이란?~~
-28. egovframe이란?
+28. ~~egovframe이란?~~
 29. context path란?
 30. JSP model이란?
 31. AO, DTO, VO란?

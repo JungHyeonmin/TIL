@@ -32,7 +32,9 @@
 29. ~~context path란?~~
 30. ~~JSP model이란?~~
 31. ~~AO, DTO, VO란?~~
-32. Handler Resolver, View Resolver, Exception Resolver 란?
+32. ~~HandlerMapping~~
+33. View Resolver
+34. Exception Resolver 란?
 33. 서블릿이란?
 34. dispatcher servlet
 35. POJO(Plain Old Java Object)란?

@@ -33,7 +33,7 @@
 30. ~~JSP model이란?~~
 31. ~~AO, DTO, VO란?~~
 32. ~~HandlerMapping~~
-33. View Resolver
+33. ~~View Resolver~~
 34. Exception Resolver 란?
 33. 서블릿이란?
 34. dispatcher servlet

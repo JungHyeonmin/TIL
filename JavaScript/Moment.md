@@ -129,7 +129,3 @@ import dayjs from 'dayjs';
 
 dayjs().format("YYYY-MM-DD HH:mm:ss"); // moment와 동일한 문법
 ```
-
----
-
-필요하다면 `dayjs`, `date-fns`, `luxon` 중 하나를 비교 설명하거나 마이그레이션 방법도 알려줄 수 있다. 원하면 말해.

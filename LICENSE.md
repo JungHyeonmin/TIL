@@ -36,8 +36,9 @@
 33. ~~View Resolver~~
 34. ~~Exception Resolver 란?~~
 33. ~~서블릿이란?~~
-34. dispatcher servlet
-35. POJO(Plain Old Java Object)란?
-36. SPRING MVC란?
-37. IMPL 개발 방법
-38. EJB(Enterprise Java Bean)란?
+34. ~~moment~~
+35. dispatcher servlet
+36. POJO(Plain Old Java Object)란?
+37. SPRING MVC란?
+38. IMPL 개발 방법
+39. EJB(Enterprise Java Bean)란?

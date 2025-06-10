@@ -67,6 +67,7 @@
 * [Persistence Context](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Persistence%20Context.md)
 * [Entity Manager](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/Entity_Manager.md)
 * [Bean Definition](https://github.com/JungHyeonmin/TIL/blob/main/Spring/JPA/BeanDefinition.md)
+* [Lazy_Eager](https://github.com/JungHyeonmin/TIL/blob/main/JPA/Eager_Lazy%EB%9E%80.md)
 
 ### JSP
 * [ContextPath](https://github.com/JungHyeonmin/TIL/blob/main/Jsp/ContextPath.md)
